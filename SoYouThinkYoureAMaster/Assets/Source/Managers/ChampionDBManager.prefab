@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &188280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 431462}
+  - 114: {fileID: 11436884}
+  - 114: {fileID: 11481582}
+  m_Layer: 0
+  m_Name: ChampionDBManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &431462
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 188280}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11436884
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 188280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb7bf05bcc959dd449abaca2bf1e6142, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11481582
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 188280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a75b4e3b2841ec43a1e7c87a74d2c2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  championInfo: {fileID: 4900000, guid: 7aa6fb4f4e7133a46aa266ac974cb435, type: 3}
+  match1: {fileID: 4900000, guid: 7ca5582b5685e3b43bf8edc81052f9c0, type: 3}
+  match2: {fileID: 4900000, guid: b901261fd2c93d0488c3b66e57b36530, type: 3}
+  match3: {fileID: 4900000, guid: 24c01173dc76ba5498d1ed44b008f7da, type: 3}
+  match4: {fileID: 4900000, guid: 47e3286a6b12a9e4f89ef2faa6e0578c, type: 3}
+  match5: {fileID: 4900000, guid: 432c28560def67448ba188fe9aeff9fb, type: 3}
+  match6: {fileID: 4900000, guid: 619919f363bdcc5459e29425258cfcc0, type: 3}
+  match7: {fileID: 4900000, guid: 769eb9b05927b4340896b066b2eec94a, type: 3}
+  match8: {fileID: 4900000, guid: 6b4040f8a60982548a021b41598b630f, type: 3}
+  match9: {fileID: 4900000, guid: ed4ee72175e1a4f43a19b90622287c36, type: 3}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 188280}
+  m_IsPrefabParent: 1
